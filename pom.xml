@@ -36,6 +36,12 @@
 <!--            <version>RELEASE</version>-->
 <!--            <scope>test</scope>-->
 <!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>4.1.0</version>
+        </dependency>
 
     </dependencies>
 

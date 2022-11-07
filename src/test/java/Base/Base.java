@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import java.time.Duration;
+
 public class Base {
 
     public WebDriver driver;
@@ -19,13 +21,14 @@ public class Base {
         driver.get("https://playground.tensorflow.org/");
         driver.manage().window().maximize();
 
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         homePage = new HomePage(driver);
 
     }
 
-    @AfterClass
-    public void down(){
-        driver.quit();
-    }
+//    @AfterClass
+//    public void down(){
+//        driver.quit();
+//    }
 
 }
