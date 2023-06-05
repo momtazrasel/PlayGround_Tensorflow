@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suites" parallel="tests" thread-count="6">
+    <!-- suite name="Suite Name" -->
+    <suite-files>
+        <suite-file path="./budget.xml" />
+        <suite-file path="./budget1.xml" />
+        <suite-file path="./budget2.xml" />
+        <suite-file path="./planning.xml" />
+        <suite-file path="./planning1.xml" />
+        <suite-file path="./planning2.xml" />
+    </suite-files>
+</suite>

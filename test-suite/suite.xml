@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Budget Test Suite" >
+    <test name="Budget Test">
+        <classes>
+            <class name="Tests.BudgetTest"/>
+        </classes>
+    </test>
+</suite>
+

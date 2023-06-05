@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Budget Test Suite" parallel="tests" thread-count="2">
+    <!-- suite name="Suite Name" -->
+    <test name="Budget Test">
+        <classes>
+            <!-- packagename.Testcase class name  -->
+            <class name ="Tests.BudgetTest" />
+        </classes>
+    </test>
+</suite>
